@@ -1,23 +1,33 @@
+/* paragrafo */
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
 
+/* Body */
+body {
+    background-color: #15202b;
+}
+
+/* Class Quem Retweetou */
 .quem_retweetou {
     color: rgba(101, 119, 134, 1);
     margin-left: 6px;
 }
 
-body {
-    background-color: #15202b;
-}
-
+/* Class Icone */
 .icone {
     border-radius: 50%;
     height: 50px;
     width: 50px;
 }
 
+/* Quando mouso sobre Class Icone */
+.icone:hover {
+    cursor: pointer;
+}
+
+/* Class Imagem */
 .imagem {
     height: 315px;
     width: 600px;
@@ -27,16 +37,24 @@ body {
     margin-top: -4;
 }
 
-.div2 {
+/* Quando Mouse Sobre Class Imagem */
+.imagem:hover {
+    cursor: pointer;
+}
+
+/* Class Informacoes do User */
+.info_user {
     display: flex;
     flex-direction: row;
 }
 
-.paragrafo1{
+/* Class Detalhes do User */
+.user_details{
     margin-left: 10px;
     margin-top: -15px;
 }
 
+/* Class Icone de Retweet */
 .icone_retweet{
     fill: rgba(136, 153, 166, 1);
     height: 18.75px;
@@ -45,11 +63,13 @@ body {
     margin-left: 38px;
 }
 
-.div1 {
+/* Class Retweet */
+.retweet {
     display: flex;
     flex-direction: row;
 }
 
+/* Class icone menu seta */
 .icone_seta{
     fill: rgba(136, 153, 166, 1);
     height: 18.75px;
@@ -58,15 +78,33 @@ body {
     margin-left: 250px;
 }
 
+/* Quando Mouse Sobre Class Icone Menu Seta */
+.icone_seta:hover {
+    cursor: pointer;
+}
+
+/* Class Usuario */
 .usuario {
     color: rgba(101, 119, 134, 1);
 }
 
+/* Class Arroba */
 .arroba {
     color: rgba(27, 149, 224, 1);
+    text-decoration: none;
 }
 
-.paragrafo2{
+/* Class Conteudo do Tweet */
+.conteudo_tweet{
     margin-left: 60px;
     margin-top: -27px;
+}
+
+/* Class container (Div principal) */
+.container{
+    width: 659px;
+    position: absolute;
+    left:50%;
+    margin-left: -330px;
+    float: left;
 }
